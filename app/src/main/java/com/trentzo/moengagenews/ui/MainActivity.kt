@@ -3,6 +3,7 @@ package com.trentzo.moengagenews.ui
 import android.content.Intent
 import android.content.IntentFilter
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.trentzo.moengagenews.R
@@ -45,6 +46,9 @@ class MainActivity : AppCompatActivity(),CallBack,OnArticleClickListener {
     }
 
     private fun setAdapter(articles: ArrayList<OfflineArticleData>){
+        if(shimmerView.visibility == View.VISIBLE){
+            shimmerView.visibility = View.GONE
+        }
         if(adapter==null){
             adapter = ArticleAdapter(this,articles,this)
             articlesRv.adapter = adapter
