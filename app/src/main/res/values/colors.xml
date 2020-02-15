@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="lightGrey">#D3D3D3</color>
+    <color name="extraLightGray">#1A000000</color>
+    <color name="dialogLightGray">#4A000000</color>
+    <color name="veryLightGray">#1A000000</color>
+    <color name="dark_gray">#8F000000</color>
+
+    <color name="blackWithOpacity">#C0C0C0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black_12">#DE000000</color>
+    <color name="black_new">#939293</color>
+    <color name="blue_grey_11">#283338</color>
+    <color name="disabled">#B3FFFFFF</color>
+    <color name="colorGreenSuccess">#2E7D32</color>
+    <color name="warningColor">#FFB71922</color>
+    <color name="retry_button">#939293</color>
+    <color name="dark_blue">#162B3B</color>
+    <color name="new_green">#55BDB1</color>
+    <color name="new_green_transparent">#3355BDB1</color>
+    <color name="inactivePinFieldColor">#808080</color>
+    <color name="pinFieldLibraryTransparent">#00000000</color>
+</resources>
