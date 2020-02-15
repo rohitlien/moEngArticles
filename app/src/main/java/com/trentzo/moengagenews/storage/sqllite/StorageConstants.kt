@@ -4,6 +4,8 @@ import android.provider.BaseColumns
 
 object StorageConstants {
 
+    const val FCM_ID_SYNCED="fcmTokenSynced"
+    const val FCM_ID = "fcmId"
     const val MSG_ILLEGAL_ARGS = "The argument should be the application context!"
 
     const val DATABASE_VERSION = 5

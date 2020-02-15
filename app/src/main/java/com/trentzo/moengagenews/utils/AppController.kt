@@ -1,6 +1,7 @@
 package com.trentzo.moengagenews.utils
 
 import android.app.Application
+import com.google.firebase.messaging.FirebaseMessaging
 import com.trentzo.moengagenews.storage.sqllite.MoEngageSQLiteOpenHelper
 
 class AppController : Application() {
@@ -16,6 +17,7 @@ class AppController : Application() {
 
         MoEngageSQLiteOpenHelper(this)
         AppPreference.initPreferences(this)
+        FirebaseMessaging.getInstance().isAutoInitEnabled = true
     }
 
 }

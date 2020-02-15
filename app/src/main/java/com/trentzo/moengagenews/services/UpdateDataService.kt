@@ -2,13 +2,11 @@ package com.trentzo.moengagenews.services
 
 import android.app.IntentService
 import android.content.Intent
-import com.trentzo.moengagenews.storage.sqllite.StorageConstants
-import com.trentzo.moengagenews.utils.AppPreference
 import android.app.PendingIntent
 import android.app.AlarmManager
 import android.content.Context
 import android.os.SystemClock
-import com.trentzo.moengagenews.UpdateDataReceiver
+import com.trentzo.moengagenews.receivers.UpdateDataReceiver
 import com.trentzo.moengagenews.beans.OfflineArticleData
 import com.trentzo.moengagenews.network.CallBack
 import com.trentzo.moengagenews.network.NetworkClient

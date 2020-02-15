@@ -6,6 +6,7 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 object ConstantUtils {
+    const val NEW_ARTICLE_ARRIVED = "new_article_arrived"
     const val KEY_UPLOAD_DATA= "updateData"
     private val months = arrayOf("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
 
